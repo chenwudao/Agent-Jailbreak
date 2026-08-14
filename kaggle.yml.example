@@ -1,0 +1,13 @@
+# Kaggle Runner project config
+# 复制本文件为 kaggle.yml 并改成你自己的 notebook（kaggle.yml 已被 gitignore）
+project: <你的项目名>
+kernel_slug: <你的kaggle用户名>/<你的notebook-slug>
+code_file: remote_notebooks/<你的kaggle用户名>__<你的notebook-slug>/<你的notebook>.ipynb
+accelerator: gpu
+internet: false
+privacy: private
+datasets: []
+competitions:
+  - ai-agent-security-multi-step-tool-attacks
+outputs:
+  download_to: .kaggle-outputs/

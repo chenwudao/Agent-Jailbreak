@@ -1,0 +1,15 @@
+{
+  "id": "<你的kaggle用户名>/<你的notebook-slug>",
+  "title": "<Notebook 标题>",
+  "code_file": "<你的notebook>.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ai-agent-security-multi-step-tool-attacks"
+  ],
+  "machine_shape": "NvidiaTeslaT4"
+}

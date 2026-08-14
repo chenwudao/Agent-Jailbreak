@@ -1,0 +1,48 @@
+# ============ 凭据：绝对不能提交 ============
+.kaggle/
+kaggle.json
+
+# ============ Kaggle Runner 个人配置 ============
+# 每个人的 kernel slug 不同，从 *.example 模板复制出自己的版本
+kaggle.yml
+kernel-metadata.json
+remote_notebooks/**/kernel-metadata.json
+
+# ============ 本地临时目录 / 抓取副本 ============
+.codex-temp/
+.codex_tmp/
+
+# ============ Kaggle 运行输出缓存 ============
+.kaggle-outputs/
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ============ 编辑器 / IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============ 杂项产物 ============
+*.log
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
