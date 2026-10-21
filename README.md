@@ -1,6 +1,26 @@
-# JED Attack — AI Agent Security · Multi-Step Tool Attacks
+# 工具调用型智能体稳健性评测笔记
 
-Kaggle 竞赛 **红队攻击** 团队协作仓库。目标：构造提示词诱导工具调用型智能体（GPT-OSS / Gemma）执行高危动作，最大化评分。
+本仓库是参加 Kaggle 公开竞赛 [AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks) 的研究档案。竞赛在隔离的评测环境中，考察多步工具调用智能体面对不安全工具使用时的稳健性。这里保留实验目录、配置模板和队伍协作记录，便于核对评测设置、对照公开分数，以及从研究角度讨论评测设计。
+
+本页只提供高层说明：用途、仓库结构、引用方式与研究声明。评分记录、目录约定和提交流程保留为原始协作笔记，此处不扩写、不改写成操作教程。
+
+**研究声明。** 材料仅供学术研究、教学，以及在自有或已获授权环境中的防御性评估。请勿用于未获授权的系统。维护者不协助把评测记录转用于竞赛环境之外。
+
+## 如何引用
+
+尚无正式论文。引用本仓库时请注明它是研究档案，例如：
+
+```bibtex
+@misc{chenwudao2026agentrobustness,
+  author = {chenwudao},
+  title  = {工具调用型智能体稳健性评测笔记},
+  year   = {2026},
+  url    = {https://github.com/chenwudao/Agent-Jailbreak},
+  note   = {Kaggle AI Agent Security 竞赛研究档案，仅供稳健性评测研究}
+}
+```
+
+## 竞赛背景
 
 | 项目 | 信息 |
 |---|---|
